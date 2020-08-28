@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    width: 700px;
+    margin: auto;
+}
+.screen input{
+    width: 500px;
+    height: 100px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    outline: none;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: right;
+    letter-spacing: 4px; 
+}
+button{
+    width: 123px;
+    margin-right: 0px;
+    margin-bottom:  2px;
+    margin-top: 5px;
+    height: 83px;
+    font-size: 26px;
+    background-color: black;
+    color: white;
+    outline: none;
+    transform:scale(1);
+    border-color: #ddd;
+    transition: 0.8s; 
+}
+#sign{
+    background-color: darkolivegreen;
+    color: white;
+}
+button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+#sign:hover{
+    background: brown;
+    color: white;
+}
